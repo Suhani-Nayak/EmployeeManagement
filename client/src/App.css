@@ -1,0 +1,214 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #353941;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/*----------------------
+   Header section
+   -----------------------  */
+   * {
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .navbar .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  
+    
+  
+  }
+  
+  .navbar {
+  
+    height: 60px;
+    background-color: #b3b1b6;
+    position: relative;
+  
+  }
+  
+  
+  .logo {
+    
+    color: #021c2b;
+  }
+  
+  
+  
+  
+  ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+  
+  
+  }
+  
+  ul li:not(:last-child) {
+    margin-right: 60px;
+  }
+  
+  ul a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #1B1A21;
+    text-decoration: none;
+  }
+  
+ 
+  
+  ul a.active::after {
+    /* content: ''; */
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #574c4c;
+  
+  }
+
+  .footer-container{
+background-color: #9fb2b8;
+  }
+  
+ 
+/*------------------------
+ Hero section 
+ ------------------------- */
+
+ .hero-section{
+  background-color: #1d2951;
+background-image: linear-gradient(315deg, #1d2951 0%, #dbe7fc 74%);
+background-attachment: fixed;
+background-size: cover;
+ }
+.hero-section h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  
+}
+.hero-section p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  
+}
+
+
+
+
+
+.CreateEmployee {
+  background-color: #e9bcb7;
+background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
+  min-height: 100vh;
+  color: beige;
+}
+
+.ShowEmployeeDetails {
+  background-color: #e9bcb7;
+background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
+  min-height: 100vh;
+  color: beige;
+}
+
+.UpdateEmployeeInfo {
+  background-color: #e9bcb7;
+background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
+  min-height: 100vh;
+  color: beige;
+}
+
+.ShowEmployeeList {
+  background-color: #e9bcb7;
+  background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  min-width: 100px;
+  color: beige;
+}
+
+
+.list {
+  display: grid;
+  margin: 20px 0 50px 0;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 1fr;
+  grid-gap: 2em;
+}
+
+
+.card-container {
+  background-color: #4d4855;
+background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
+
+  width: 250px;
+  border: 1px solid rgb(165, 165, 165);
+  margin: 0 auto;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+
+.desc {
+  height: 130px;
+  padding: 10px;
+}
+
+.desc h2 {
+  font-size: 1em;
+  font-weight: 400;
+}
+
+
+.desc h3, p {
+  font-weight: 300;
+}
+
+.desc h3  {
+  color: #6c757d;
+  font-size: 1em;
+  padding: 10px 0 10px 0;
+}
